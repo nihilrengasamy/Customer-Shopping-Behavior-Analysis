@@ -1,157 +1,92 @@
 # Customer Shopping Behavior Analysis
-End-to-end Customer Behavior Analysis project using Python, SQL, and Machine Learning to analyze purchasing patterns, customer trends, product performance, and review behavior. Includes data cleaning, EDA, visualization dashboards, and predictive analytics to generate actionable business insights.
 
-## Project Overview
+An end-to-end Customer Churn Analysis project focused on analyzing customer behavior, identifying churn patterns, and generating business insights through data analytics, SQL querying, and interactive dashboards.
 
-This project aims to extract meaningful business insights from customer shopping data by performing:
+This project helps businesses understand customer retention trends and supports data-driven decision-making using analytics and visualization techniques.
+
+# Project Overview
+
+Customer churn is a major challenge for businesses. This project analyzes customer data to identify patterns behind customer attrition and provides actionable insights through data visualization and analytics.
+
+The project includes:
 
 * Data Cleaning & Preprocessing
+* SQL-based data analysis
 * Exploratory Data Analysis (EDA)
-* SQL-based Business Queries
-* Customer Segmentation
-* Visualization & Dashboarding
-* Machine Learning Predictions
+* Customer churn trend analysis
+* Interactive dashboard creation
+* Business insights and recommendations
 
-The project simulates real-world business analytics workflows used by data analysts, ML engineers, and AI engineers.
+# Objectives
 
-## Objectives
-
-* Analyze customer purchasing patterns
-* Identify high-performing products
-* Understand customer review behavior
-* Study discount and seasonal trends
+* Analyze customer churn behavior
+* Identify factors influencing customer retention
+* Perform business analysis using SQL
+* Create interactive visual dashboards
 * Generate actionable business insights
-* Build predictive analytics models
 
-## Tech Stack
+# Tech Stack
 
-### Programming & Analysis
+## Programming
 
 * Python
-* SQL (PostgreSQL/MySQL)
 
-### Libraries
+## Database
+
+* PostgreSQL
+
+## Visualization
+
+* Power BI
+
+## Python Libraries
 
 * Pandas
 * NumPy
 * Matplotlib
 * Seaborn
-* Scikit-learn
+* Psycopg2 / SQLAlchemy
 
-### Tools
-
-* Jupyter Notebook
-* VS Code
-* Git & GitHub
-
-## Project Workflow
+# Project Workflow
 
 1. Data Collection
-2. Data Cleaning & Preprocessing
-3. Exploratory Data Analysis
+2. Data Cleaning using Python
+3. Data Import into PostgreSQL
 4. SQL Query Analysis
-5. Feature Engineering
+5. Exploratory Data Analysis
 6. Data Visualization
-7. Machine Learning Modeling
-8. Business Insights & Conclusions
+7. Dashboard Development
+8. Business Insights & Reporting
 
-## Exploratory Data Analysis
+# Key Analysis Performed
 
-The project includes analysis such as:
+* Customer churn distribution
+* Gender-based churn analysis
+* Contract type analysis
+* Monthly charges vs churn
+* Payment method analysis
+* Customer tenure analysis
+* Internet service analysis
+* Customer retention trends
 
-* Most purchased products
-* Average product ratings
-* Gender-based shopping trends
-* Seasonal purchase analysis
-* Discount impact on sales
-* Customer spending behavior
+# Dashboard Features
 
-## Machine Learning
+* Interactive KPI cards
+* Churn rate visualization
+* Customer segmentation analysis
+* Monthly revenue insights
+* Contract and subscription analysis
+* Filter and slicer-based reporting
 
-Implemented ML models for:
+# SQL Analysis Examples
 
-* Customer behavior prediction
-* Purchase trend analysis
-* Customer segmentation
-* Product recommendation insights
+The project includes SQL queries for:
 
-## Sample Business Questions
+* Average customer spending
+* Churn percentage calculation
+* Top customer segments
+* Revenue analysis
+* Customer retention metrics
+* Service-wise churn trends
 
-* Which products have the highest ratings?
-* Which season generates the most sales?
-* How do discounts affect purchase amounts?
-* Which customer groups spend the most?
-* What factors influence customer purchasing behavior?
 
-## Project Structure
-
-```bash
-Customer-Behavior-Analysis/
-│
-├── data/
-│   ├── raw_data.csv
-│   └── cleaned_data.csv
-│
-├── notebooks/
-│   ├── data_cleaning.ipynb
-│   ├── eda.ipynb
-│   └── machine_learning.ipynb
-│
-├── sql/
-│   └── business_queries.sql
-│
-├── visuals/
-│   └── charts_and_graphs/
-│
-├── models/
-│   └── trained_models/
-│
-├── README.md
-└── requirements.txt
-```
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/customer-behavior-analysis.git
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
-## Results & Insights
-
-* Identified customer purchasing trends
-* Found top-rated and high-performing products
-* Analyzed customer spending patterns
-* Built predictive models for customer insights
-* Generated business-focused recommendations
-
-## Future Improvements
-
-* Deploy dashboard using Streamlit/Power BI
-* Add real-time analytics pipeline
-* Integrate deep learning models
-* Build recommendation system
-* Deploy ML model using Flask/FastAPI
-
-## Author
-
-**Nihil Rengasamy Thiruselvan**
-
-* Master’s Student Data Science, UAlbany, SUNY.
-* Interested in Data Analytics, AI, and Machine Learning
-
-## License
-
-This project is licensed under the MIT License.
